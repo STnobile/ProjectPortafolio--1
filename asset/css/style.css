@@ -8,10 +8,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.display{
-    background-color: #fffbfb;
-}
-
 .hero{
     height: 100vh;
     width: 100%;
@@ -81,4 +77,145 @@ button:hover {
     font-weight: bold;
     font-size: 28px;
     color: #fffbfb;
+}
+
+/* Here start the story section */
+
+.bkg-cl {
+    background: darkkhaki;
+    width: 100%;
+    height: 100vh;
+}
+
+.bkg-cl2 {
+    background: black;
+    width: 100%;
+    height: 100vh;
+}
+
+/* here start the about us section */
+
+
+
+.service {
+    background-color: darkolivegreen;
+    width: 100%;
+    padding:100px 0px;
+}
+
+.title h3 {
+     color: goldenrod;
+     font-size: 32px;
+     width: 100%;
+     margin: 30px auto;
+     text-align: center;
+}
+
+.box-au {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card-cd {
+    width: 300px;
+    height: 355px;
+    background: whitesmoke;
+    position: relative;
+    margin: 15px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-cd i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: goldenrod;
+}
+
+h5 { 
+    color: darkolivegreen;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.pp p{
+    color: rgb(80, 78, 78);
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* comtact section start here */
+
+.contact {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p {
+    color: darkolivegreen;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact .buttom-2 {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background: darkgreen;
+    color: gold;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.contact .buttom-2:hover {
+    background-color: transparent;
+    border: 2px solid darkolivegreen;
+    cursor: pointer;
+}
+
+/* footer start here */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: darkolivegreen;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fffbfb;
+    text-decoration: none;
+    font-size: 20px;
 }
