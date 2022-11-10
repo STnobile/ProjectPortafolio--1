@@ -87,15 +87,22 @@ button:hover {
     height: 100vh;
 }
 
+.cont-pp {
+    display: flex;
+    
+    justify-content: center;
+    width: 80%;
+    left: 5%;
+}
+
 .bkg-cl2 {
     background: black;
     width: 100%;
     height: 100vh;
 }
 
+
 /* here start the about us section */
-
-
 
 .service {
     background-color: darkolivegreen;
@@ -259,7 +266,12 @@ footer p {
     width: 32.5%;
 }
 
-.container .box-img .col img {
+.container .box-img .col img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.container .box-img .col video {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 10px;
@@ -271,6 +283,9 @@ footer p {
     }
     .container .box-img .col {
         width: 100%;
+    }
+    .container .box-img .col video {
+        height:300px;
     }
 }
 
