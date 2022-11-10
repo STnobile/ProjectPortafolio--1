@@ -84,15 +84,50 @@ button:hover {
 .bkg-cl {
     background: darkkhaki;
     width: 100%;
-    height: 100vh;
+    padding: 100px 0px;
 }
 
-.cont-pp {
+.b-video{
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    border-radius: 35px;
+    margin-bottom: 45px;
+}
+
+.bkg-cl video {
+    height: 500px;
+    width: 400px;
+}
+
+.cont-st {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
-    
-    justify-content: center;
-    width: 80%;
-    left: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-pp {
+    width: 430px;
+    background-color: #fffbfb;
+    border-radius: 30px;
+    padding: .5rem;
+}
+.cont-pp h2 {
+    color: goldenrod;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.cont-pp p{
+    color: darkolivegreen;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
 }
 
 .bkg-cl2 {
@@ -120,6 +155,7 @@ button:hover {
 
 .box-au {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-height: 400px;
