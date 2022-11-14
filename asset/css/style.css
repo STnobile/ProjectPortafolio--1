@@ -373,3 +373,33 @@ footer p {
     width: 100%;
     overflow: hidden;
 }
+#times div {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fffbfb;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fffbfb;
+    font-size: 18px;
+}
+
+#times h3{
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 200px;
+        padding: 0;
+    }
+}
