@@ -292,12 +292,13 @@ footer p {
 /* gallery start here */
 
 .container {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 40px 20px 0 20px;
 }
 
 .container .heading  {
@@ -403,3 +404,44 @@ footer p {
         padding: 0;
     }
 }
+
+/* section contact start here */
+
+
+.bex-five {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.mapwrapper {
+    margin: 2rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 50%;
+}
+
+.mapwrapper-map {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 50%;
+}
+iframe{
+     position: relative;
+    width: 90%;
+    border-radius: 30px;
+}
+
+
+
+/* newsletter start here */
