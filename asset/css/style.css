@@ -120,7 +120,7 @@ nav ul li a:hover {
     margin-bottom: 40px;
 }
 
-.box-one{
+.box-one {
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -226,6 +226,7 @@ h5 {
 
 .contact p {
     color: darkolivegreen;
+    position: absolute;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
@@ -246,6 +247,17 @@ h5 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1200px) {
+    .contact {
+    margin: 1rem;
+}
+.contact p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+    
+}
 /* footer start here */
 
 footer{
@@ -413,13 +425,14 @@ footer p {
     max-width: 95%;
     margin: 0 auto;
     display: flex;
-     flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: center;
 }
 
 
 .mapwrapper {
-    margin: 2rem;
+    margin: 5rem;
     border: 2px solid black;
     border-radius: 30px;
     padding: 1rem;
@@ -427,22 +440,46 @@ footer p {
 }
 
 .mapwrapper-map {
-    position: relative;
     display: flex;
+    margin: 5rem;
     justify-content: center;
-    margin: 2rem;
     border: 2px solid black;
     border-radius: 30px;
     padding: 1rem;
     width: 50%;
+
 }
 iframe{
      position: relative;
-    width: 90%;
-    border-radius: 30px;
+     width: 90%;
+     border-radius: 30px;
+     display: flex;
+     justify-content: center;
+     margin: 2rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .bex-five{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .mapwrapper-map {
+        display: flex;
+        width: 90%;
+    }
+
+    iframe {
+       margin: 1rem;
+    }
+    .mapwrapper{
+        padding: 1rem;
+        width: 90%;
+    }
+
+}
 
 /* newsletter start here */
 
@@ -496,4 +533,12 @@ iframe{
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+@media  screen and (max-width: 1200px) {
+    .newsletter{
+        display: absolute ;
+        text-align: center;
+        justify-content: center;
+    }
 }
