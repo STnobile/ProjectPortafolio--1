@@ -35,7 +35,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    padding-left: 8%;
+    padding-left: 4%;
     padding-right: 10%;
 }
 
@@ -52,10 +52,13 @@ nav ul li a {
 }
 
 
-nav ul li a:hover {
+ 
+nav ul li a:hover  {
     color: goldenrod;
     transition: .3s;
 }
+
+
 
 .button1 {
     border: none;
