@@ -58,6 +58,10 @@ nav ul li a:hover  {
     transition: .3s;
 }
 
+.active {
+    color: goldenrod;
+}
+
 
 
 .button1 {
