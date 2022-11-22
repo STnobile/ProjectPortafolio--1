@@ -430,7 +430,7 @@ footer p {
 .bex-five {
     width: 100%;
     max-width: 95%;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -443,20 +443,26 @@ footer p {
     border: 2px solid black;
     border-radius: 30px;
     padding: 1rem;
-    width: 50%;
+    width: 550px;
 }
 
-.mapwrapper-map {
+.cont-map {
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    padding: .5rem;
+}
+.map {
     display: flex;
     margin: 5rem;
     justify-content: center;
     border: 2px solid black;
     border-radius: 30px;
     padding: 1rem;
-    width: 50%;
-
 }
+
 iframe{
+
      position: relative;
      width: 90%;
      border-radius: 30px;
@@ -471,6 +477,7 @@ iframe{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin: 0 0 0 20px;
     }
 
     .mapwrapper-map {
