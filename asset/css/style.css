@@ -63,7 +63,7 @@ nav ul li a:hover  {
 }
 
 
-
+/*
 .button1 {
     border: none;
     border-radius: 25px;
@@ -85,6 +85,51 @@ nav ul li a:hover  {
     font-size: 28px;
     color: #fffbfb;
 }
+*/
+
+@media screen and (max-width: 300px) {
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    }
+    
+
+
+@media screen and (max-width: 800px) {
+    .logo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    nav ul li {
+        display: flex;
+        display: inline-block;
+        margin: 0;
+         font-size: 15px;
+    }
+}
+
 
 /* Here start the story section */
 
@@ -163,6 +208,29 @@ nav ul li a:hover  {
     height: 100vh;
 }
 
+@media  screen and (max-width: 300px) {
+    .bkg-cl {
+        width: 100%;
+        padding: 100px 0;
+    }
+    
+    .b-video{
+        height: 290px;
+        width: 280px;
+    }
+
+    .bkg-cl video {
+        height: 270px;
+        width: 250px;
+        margin: 0.5rem;
+    }
+
+    .boxx {
+        width: 90%; 
+    }
+}
+
+
 
 /* here start the about us section */
 
@@ -220,7 +288,7 @@ h5 {
     font-weight: bold;
 }
 
-/* comtact section start here */
+/* contact section start here */
 
 .contact {
     width: 100%;
@@ -467,6 +535,17 @@ iframe {
 }
 
 
+@media screen and (max-width: 300px) {
+    .card-cdx {
+        width: 90%;
+        height: 485px;
+    }
+    .cont-ppp p{
+     margin: .2rem;
+     padding: .2rem;
+    }
+}
+
 /* newsletter start here */
 
 .newsletter {
@@ -527,4 +606,21 @@ iframe {
         text-align: center;
         justify-content: center;
     }
+}
+
+
+@media  screen and (max-width: 300px) {
+    .newsletter{
+         width: 90%;
+         margin: 0.5rem;
+         padding: 0.5rem;
+    }
+
+    .newsletter p {
+        max-width: 200px;
+    }
+
+    .bb{
+     width: 100px;
+}
 }
