@@ -426,74 +426,46 @@ footer p {
 
 /* section contact start here */
 
-
-.bex-five {
-    width: 100%;
-    max-width: 95%;
-    margin: 0px auto;
+.box-aux {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    min-height: 400px;
+}
+
+.card-cdx {
+    width: 400px;
+    height: 455px;
+    background: whitesmoke;
+    position: relative;
+    margin: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cont-ppp p{
+    color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15px;
+    letter-spacing: 1px;
+    margin: .5rem;
+    margin-bottom: 35px;
 }
 
 
 .mapwrapper {
-    margin: 5rem;
     border: 2px solid black;
     border-radius: 30px;
-    padding: 1rem;
-    width: 550px;
 }
 
-.cont-map {
-    text-align: center;
-    justify-content: center;
-    width: 70%;
-    padding: .5rem;
-}
-.map {
-    display: flex;
-    margin: 5rem;
-    justify-content: center;
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 1rem;
+
+iframe {
+    width: 100%;
 }
 
-iframe{
-
-     position: relative;
-     width: 90%;
-     border-radius: 30px;
-     display: flex;
-     justify-content: center;
-     margin: 2rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .bex-five{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 0 0 20px;
-    }
-
-    .mapwrapper-map {
-        display: flex;
-        width: 90%;
-    }
-
-    iframe {
-       margin: 1rem;
-    }
-    .mapwrapper{
-        padding: 1rem;
-        width: 90%;
-    }
-
-}
 
 /* newsletter start here */
 
