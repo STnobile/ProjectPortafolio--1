@@ -8,26 +8,33 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 .hero{
     height: 100vh;
-    width: 100%;
-    background-image: url(../images/hero3.jpg);
+    width: calc(100% - 8px);
+    background-image: url(../images/hero3.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid goldenrod;
+    border: 2px solid rgb(218, 165, 32);
 
+}
+
+h5 { 
+    color: rgb(85, 107, 47);
+    margin-bottom: 15px;
+    font-size: 22px;
 }
 
 .logo{
      padding: 10px 20px;
      font-size: 40px;
-     color: darkgreen;
+     color: rgb(85, 107, 47);
      font-weight: bold;
 }
     
 span{
-    color: goldenrod;
+    color: rgb(218, 165, 32);
     font-weight: bold;
 }
 nav {
@@ -54,38 +61,14 @@ nav ul li a {
 
  
 nav ul li a:hover  {
-    color: goldenrod;
+    color: rgb(218, 165, 32);
     transition: .3s;
 }
 
 .active {
-    color: goldenrod;
+    color: rgb(218, 165, 32);
 }
 
-
-/*
-.button1 {
-    border: none;
-    border-radius: 25px;
-    background: darkgreen;
-    color: white;
-    padding: 12px 30px;
-    font-size: 12px;
-    font-weight: bold;
-    transition: .4s;
-}
-
-.button1:hover {
-    transform: scale(1.3);
-    cursor: pointer;
-}
-
-.content {
-    font-weight: bold;
-    font-size: 28px;
-    color: #fffbfb;
-}
-*/
 
 @media screen and (min-width: 300px) and (max-width:800px){
 
@@ -113,40 +96,16 @@ nav ul li a:hover  {
     }
     
 
-/*
-@media screen and (max-width: 800px) {
-    .logo{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 30px;
-    }
-    
-    nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-size: 15px;
-    }
-    
-    nav ul li {
-        display: flex;
-        margin: 0;
-        font-size: 15px;
-    }
-}*/
-
-
 /* Here start the story section */
 
 .bkg-cl {
-    background: darkkhaki;
+    background: rgb(189, 183, 107);
     width: 100%;
     padding: 100px 0;
 }
 
 .b-video{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 500px;
     width: 400px;
     border-radius: 35px;
@@ -173,7 +132,7 @@ nav ul li a:hover  {
     align-items: center;
     justify-content: center;
     width: 60%; 
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245);
     border-radius: 30px;
     margin-bottom: 40px;
 }
@@ -192,7 +151,7 @@ nav ul li a:hover  {
 }
 
 .cont-pp h2 {
-    color: goldenrod;
+    color: rgb(218, 165, 32);
     font-size: 30px;
     font-weight: bold;
     text-transform: capitalize;
@@ -201,7 +160,7 @@ nav ul li a:hover  {
 }
 
 .cont-pp p{
-    color: darkolivegreen;
+    color: rgb(85, 107, 47);
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
@@ -209,7 +168,7 @@ nav ul li a:hover  {
 }
 
 .bkg-cl2 {
-    background: black;
+    background: rgb(0, 0, 0);
     width: 100%;
     height: 100vh;
 }
@@ -241,13 +200,13 @@ nav ul li a:hover  {
 /* here start the about us section */
 
 .service {
-    background-color: darkolivegreen;
+    background-color: rgb(85, 107, 47);
     width: 100%;
     padding:100px 0px;
 }
 
 .title h3 {
-     color: goldenrod;
+     color: rgb(218, 165, 32);
      font-size: 32px;
      width: 100%;
      margin: 30px auto;
@@ -265,7 +224,7 @@ nav ul li a:hover  {
 .card-cd {
     width: 300px;
     height: 355px;
-    background: whitesmoke;
+    background: rgb(245, 245, 245);
     position: relative;
     margin: 15px;
     border-radius: 30px;
@@ -278,17 +237,11 @@ nav ul li a:hover  {
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: goldenrod;
-}
-
-h5 { 
-    color: darkolivegreen;
-    margin-bottom: 15px;
-    font-size: 22px;
+    color: rgb(218, 165, 32);
 }
 
 .ff { 
-    color: darkolivegreen;
+    color: rgb(85, 107, 47);
     margin-bottom: 15px;
     font-size: 22px;
 }
@@ -312,7 +265,7 @@ h5 {
 }
 
 .contact p {
-    color: darkolivegreen;
+    color: rgb(85, 107, 47);
     position: absolute;
     font-size: 30px;
     font-weight: bold;
@@ -322,15 +275,15 @@ h5 {
 .contact .buttom-2 {
     border: 2px solid transparent;
     border-radius: 25px;
-    background: darkgreen;
-    color: gold;
+    background: rgb(0, 100, 0);
+    color: rgb(255, 215, 0);
     padding: 12px 30px;
     font-size: 15px;
     font-weight: bold;
 }
 .contact .buttom-2:hover {
     background-color: transparent;
-    border: 2px solid darkolivegreen;
+    border: 2px solid rgb(85, 107, 47);
     cursor: pointer;
 }
 
@@ -368,14 +321,14 @@ footer{
     position: relative;
     width: 100%;
     height: 400px;
-    background-color: coral;
+    background-color: rgb(255, 127, 80);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 footer p {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
@@ -391,10 +344,10 @@ footer p {
     display:flex;
     align-items: center;
     justify-content: center;
-    background: darkolivegreen;
+    background: rgb(85, 107, 47);
     border-radius: 50%;
     margin: 22px 10px;
-    color: #fffbfb;
+    color: rgb(255, 251, 251);
     text-decoration: none;
     font-size: 20px;
 }
@@ -439,8 +392,8 @@ footer p {
 .container .heading h3 {
     font-size: 20px;
     font-weight: bold;
-    color: darkolivegreen;
-    border-bottom: 3px solid darkolivegreen; 
+    color: rgb(85, 107, 47);
+    border-bottom: 3px solid rgb(85, 107, 47); 
     padding-bottom: 10px;   
 }
 .container .heading h3 span {
@@ -519,19 +472,19 @@ footer p {
     overflow: hidden;
 }
 #times div {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #fffbfb;
+    border: 2px solid rgb(255, 251, 251);
     box-sizing: border-box;
 }
 
 #times h2 {
-    color: #fffbfb;
+    color: rgb(255, 251, 251);
     font-size: 18px;
 }
 
@@ -562,7 +515,7 @@ footer p {
 .card-cdx {
     width: 400px;
     height: 455px;
-    background: whitesmoke;
+    background: rgb(245, 245, 245);
     position: relative;
     margin: 40px;
     border-radius: 30px;
@@ -571,7 +524,7 @@ footer p {
 }
 
 .cont-ppp p{
-    color: darkolivegreen;
+    color: rgb(85, 107, 47);
     font-weight: bold;
     text-align: center;
     padding: 0.5rem;
@@ -579,7 +532,7 @@ footer p {
 
 
 .mapwrapper {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 30px;
 }
 
@@ -603,19 +556,19 @@ iframe {
 /* newsletter start here */
 
 .newsletter {
-    background: cornflowerblue;
+    background: rgb(100, 149, 237);
     margin: 5rem;
     background-size: cover;
     padding: 100px 40px;
     text-align: center;
-    box-shadow: 0 0 20px #00000060;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.376);
 }
 
 .newsletter p {
     max-width: 600px;
     margin: 40px auto;
     font-size: 15px;
-    color: #fffbfb;
+    color: rgb(255, 251, 251);
 }
 
 .email-bt {
@@ -626,7 +579,7 @@ iframe {
 
 .email-bt i {
     background: rgba(255, 217, 0, 0.53);
-    color: black;
+    color: rgb(0, 0, 0);
     width: 40px;
     line-height: 40px;
 }
@@ -641,14 +594,10 @@ iframe {
    transition: 0.6s;
 }
 
-/* .email-bt:hover > .bb,.bb:focus{
-    width: 260px;
-    padding: 0 10px;
-}
-*/
+
 .bc{
     background: rgba(255, 217, 0, 0.53);
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
@@ -656,7 +605,6 @@ iframe {
 
 @media  screen and (max-width: 1200px) {
     .newsletter{
-        display: absolute ;
         text-align: center;
         justify-content: center;
     }
