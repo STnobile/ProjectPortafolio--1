@@ -12,7 +12,7 @@ body {
 .hero{
     height: 100vh;
     width: calc(100% - 8px);
-    background-image: url(../images/hero3.jpeg);
+    background-image: url(../images/hero3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -431,7 +431,7 @@ footer p {
         width: 100%;
     }
     .container .box-img .col video {
-        height:300px;
+        height: 400px;
     }
 }
 
@@ -464,7 +464,7 @@ footer p {
 /* times section */
 
 #times {
-    background-image: url("../images/programma.jpg");
+    background-image: url("../images/panorama.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
