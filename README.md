@@ -90,3 +90,37 @@ The header shows the name of the museum, using the color dark olive green for MU
 ![devises reponsive](/asset/images/newsll.png)
 
 
+* I added a section with a map so all the users can connet to it and have it saved in their maps.
+
+* Also I created a card that explain our service Tour and Taisting.
+
+![devises reponsive](/asset/images/info.png)
+
+# Testing 
+
+* I had a positive response from different browsers : Chrome, Safari and FireFox.
+* I am positive that this project is responsive and looks good and is working in all the standard screen size, I tested using devtools device toolbar.
+* I confirmed that the navigation, header, about us, sing up and contatc are readable and easy to understand.
+* The newsletter section is working and the email is required.
+
+### Validator Testing
+
+1. HTML
+
+* Document checking completed. No errors or warnings to show.
+* I tested all my html pages several times, always tested working.
+
+2. CSS 
+
+* I had a positive response from the validation of css.
+![devises reponsive](/asset/images/cssvalidation.png)
+
+* Accessibility
+   + I had some issus to make it working, luckily I managed to let it work.
+
+     * home.html
+     ![devises reponsive](/asset/images/home.lighthouse.png)
+     * gallery.html
+     ![devises reponsive](/asset/images/gallery.lighthouse.png)
+     * contact.html
+     ![devises reponsive](/asset/images/contact.lighthouse.png)
