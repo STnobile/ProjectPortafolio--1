@@ -1,7 +1,8 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 
 
 body {
+    color: rgba(245, 245, 245, 0.777);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +22,7 @@ body {
 }
 
 h5 { 
-    color: rgb(85, 107, 47);
+    color: black;
     margin-bottom: 15px;
     font-size: 22px;
 }
@@ -31,12 +32,20 @@ h5 {
      font-size: 40px;
      color: rgb(85, 107, 47);
      font-weight: bold;
+    
 }
     
 span{
-    color: rgb(218, 165, 32);
+    color: rgb(183, 136, 16);
     font-weight: bold;
 }
+
+.h5title {
+    color: rgb(255, 127, 90);
+    font-weight: bold;
+}
+
+/* navbar starts here */
 nav {
     display: flex;
     align-items: center;
@@ -61,12 +70,12 @@ nav ul li a {
 
  
 nav ul li a:hover  {
-    color: rgb(218, 165, 32);
+    color: rgb(183, 136, 16);
     transition: .3s;
 }
 
 .active {
-    color: rgb(218, 165, 32);
+    color: rgb(183, 136, 16);
 }
 
 
@@ -132,7 +141,7 @@ nav ul li a:hover  {
     align-items: center;
     justify-content: center;
     width: 60%; 
-    background-color: rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, 0.924);
     border-radius: 30px;
     margin-bottom: 40px;
 }
@@ -151,7 +160,7 @@ nav ul li a:hover  {
 }
 
 .cont-pp h2 {
-    color: rgb(218, 165, 32);
+    color:rgb(255, 127, 80) ;
     font-size: 30px;
     font-weight: bold;
     text-transform: capitalize;
@@ -160,7 +169,7 @@ nav ul li a:hover  {
 }
 
 .cont-pp p{
-    color: rgb(85, 107, 47);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
@@ -200,13 +209,13 @@ nav ul li a:hover  {
 /* here start the about us section */
 
 .service {
-    background-color: rgb(85, 107, 47);
+    background-color: rgba(85, 107, 47, 0.896);
     width: 100%;
     padding:100px 0px;
 }
 
 .title h3 {
-     color: rgb(218, 165, 32);
+     color: rgb(255, 127, 80);
      font-size: 32px;
      width: 100%;
      margin: 30px auto;
@@ -237,20 +246,21 @@ nav ul li a:hover  {
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: rgb(218, 165, 32);
+    color: rgb(255, 127, 80);
 }
 
 .ff { 
-    color: rgb(85, 107, 47);
+    color: rgb(0, 0, 0);
     margin-bottom: 15px;
     font-size: 22px;
 }
 
-.pp p{
+.cont-service p{
     color: rgb(80, 78, 78);
     margin-bottom: 25px;
     font-size: 15px;
     font-weight: bold;
+    margin: 1rem;
 }
 
 /* contact section start here */
@@ -270,21 +280,6 @@ nav ul li a:hover  {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
-}
-
-.contact .buttom-2 {
-    border: 2px solid transparent;
-    border-radius: 25px;
-    background: rgb(0, 100, 0);
-    color: rgb(255, 215, 0);
-    padding: 12px 30px;
-    font-size: 15px;
-    font-weight: bold;
-}
-.contact .buttom-2:hover {
-    background-color: transparent;
-    border: 2px solid rgb(85, 107, 47);
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
@@ -524,7 +519,7 @@ footer p {
 }
 
 .cont-ppp p{
-    color: rgb(85, 107, 47);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     padding: 0.5rem;
