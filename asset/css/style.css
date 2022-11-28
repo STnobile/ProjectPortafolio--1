@@ -604,7 +604,12 @@ iframe {
         justify-content: center;
     }
 } 
-
+@media  screen and (min-width: 400px) and (max-width:800px) {
+    .newsletter{
+         text-align: center;
+        justify-content: center;
+   }
+}
 
 @media  screen and (min-width: 300px) and (max-width:800px) {
 
@@ -612,6 +617,8 @@ iframe {
          width: 90%;
          margin: 0.5rem;
          padding: 0.5rem;
+         text-align: center;
+        justify-content: center;
     }
 
     .newsletter p {

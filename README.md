@@ -32,6 +32,61 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The first part is a guide to the concept we would like to show to our visitors.
 * Our Serviser is divided in three cards they have a font clean and they are well balanced with the contrast of the background.
-* The cards Collection, Explore and Cirlce are designed to shows our love and care about the origin and have a friendly environment and give the best experience to our visitors.
+* The cards Collection, Explore and Cirlce are designed to shows our care about the visitor and have a friendly environment and provide the best experience.
 
 ![devises reponsive](/asset/images/ourservice.png)
+
+# Time Line 
+## Second part of Our Service
+
+### Time Line
+- I liked so much the love runnim project that I decide to take some idea from it.
+- Of course I changed the picture and the font, font work well and everything is responsive.
+
+- The time line is working on all the devices. 
+- It provides important information like time, day, the length of the tour and tasting.
+
+##### TOUR AND TASTING(WE WILL DISCOVER LATER)
+
+![devises reponsive](/asset/images/timeline.png)
+
+# Footer
+* The footer has the links for Facebook, Instagram and Twitter.
+
+* The footer has an hoover effect when you go with the cursor on it.
+
+* The link are external so the users not lose the track of the main site and working perfectly.
+
+![devises reponsive](/asset/images/footer.png)
+
+# Gallery Section 
+* The navigation bar has an active class color goldenrod that makes easy the experience for the users.
+
+![devises reponsive](/asset/images/gallerynavbar.png)
+
+* The galley is made as "show room" also show few images regarding our collection, court and some wineyards.
+
+![devises reponsive](/asset/images/gallery1.png)
+
+* The images are divided in three column, I made them a bit dynamic adding some video. 
+
+* The gallery section is working all over the devices and it is simple.
+
+![devises reponsive](/asset/images/gallery2.png)
+
+# ALL THE PICTURE AND VIDEO ARE TAKEN BY ME, I TRIED TO RESIZE AND CONVERT THEM, IN ORDER TO GIVE A PLEASANT EXPERIENCE TO THE USER I COULD NOT RESIZE THEM MORE.
+
+## Also I took the picture with an Iphone so it is difficult take down the quality 😄.
+
+# Contatc Us
+
+* The navigation bar has an active class color goldenrod that makes easy the experience for the users.
+
+![devises reponsive](/asset/images/contatcus.png)
+
+* There is a newsletter section that is working and is responsive towards all the devices.
+* The font are working fine with the background and it is easy to read.
+
+![devises reponsive](/asset/images/newsll.png)
+
+
