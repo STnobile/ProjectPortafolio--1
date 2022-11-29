@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');*/
 
 
 body {
@@ -257,53 +257,6 @@ nav ul li a:hover  {
     margin: 1rem;
 }
 
-/* contact section start here */
-
-.contact {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact p {
-    color: rgb(85, 107, 47);
-    position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-@media screen and (max-width: 1200px) {
-    .contact {
-    margin: 1rem;
-}
-    .contact p{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-    
-}
-@media screen and (min-width:300px) and (max-width:800px) {
-    .contact {
-        width: 90%; 
-        height: 200px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .contact p {
-        position: absolute;
-        font-size: 20px;
-        margin-bottom: 25px;
-    }
-}
-
 /* footer start here */
 
 footer{
@@ -493,6 +446,24 @@ footer p {
 
 /* section contact start here */
 
+.contact {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p {
+    color: rgb(85, 107, 47);
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
 .box-card-service {
     display: flex;
     flex-wrap: wrap;
@@ -512,7 +483,7 @@ footer p {
     text-align: center;
 }
 
-.cont-history p{
+.cont-contact p{
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
@@ -531,12 +502,40 @@ iframe {
 }
 
 
+@media screen and (max-width: 1200px) {
+    .contact {
+    margin: 1rem;
+}
+    .contact p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+    
+}
+@media screen and (min-width:300px) and (max-width:800px) {
+    .contact {
+        width: 90%; 
+        height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contact p {
+        position: absolute;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width:800px) {
     .card-box {
         width: 100%;
         height: 480px;
     }
-    .cont-history p{
+    .cont-contact p{
      margin: .2rem;
      padding: .2rem;
     }
