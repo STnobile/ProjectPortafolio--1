@@ -7,7 +7,7 @@ The Museo Vini Nobile explain our opening hours, directions how to reach the pla
 The website  is targeted towards all the tourists that visit our city who want to learn something about the winemaking before the electricity came.
 
 
-![devises reponsive](/asset/images/diff.device.jpeg)
+![devises reponsive](/asset/media/diff.device.jpeg)
 
 # Features
 ## Navigation
@@ -17,7 +17,7 @@ The website  is targeted towards all the tourists that visit our city who want t
 * The navigation is in a font that works well with the contrast of the background.
 * The navigation is simple and with a elegant style.
 
-![devises reponsive](/asset/images/navbar.jpeg)
+![devises reponsive](/asset/media/navbar.jpeg)
 # Header
 
 The header shows the name of the museum, using the color dark olive green for MUSEO VINI and a span of color goldenrod for NOBILE. 
@@ -26,7 +26,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The section provides the idea of who we are and the target of the video is to keep the user on the page and then move forward to the rest of it.
 
-![devises reponsive](/asset/images/header.jpeg)
+![devises reponsive](/asset/media/header.jpeg)
 
 ## Our Service 
 
@@ -34,7 +34,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 * Our Services is divided in three cards with a clean font which are well balanced with the contrast of the background.
 * The cards Collection, Explore and Cirlce are designed to show our care about the visitor and provide the best experience.
 
-![devises reponsive](/asset/images/ourservice.jpeg)
+![devises reponsive](/asset/media/ourservice.jpeg)
 
 # Time Line 
 ## Second part of Our Service
@@ -48,7 +48,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 ##### TOUR AND TASTING (WE WILL DISCOVER LATER)
 
-![devises reponsive](/asset/images/timeline.jpeg)
+![devises reponsive](/asset/media/timeline.jpeg)
 
 # Footer
 * The footer has the links to Facebook, Instagram and Twitter.
@@ -57,41 +57,41 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The links are external so the users do not lose the track of the main site. 
 
-![devises reponsive](/asset/images/footer.jpeg)
+![devises reponsive](/asset/media/footer.jpeg)
 
 # Gallery 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users.
 
-![devises reponsive](/asset/images/gallerynavbar.jpeg)
+![devises reponsive](/asset/media/gallerynavbar.jpeg)
 
 * The gallery is made as "show room"  with some images and videos regarding our collection, court and some wineyards.
 
-![devises reponsive](/asset/images/gallery1.jpeg)
+![devises reponsive](/asset/media/gallery1.jpeg)
 
 * The images are divided in three columns. I made it a bit dynamic adding some videos. 
 
 * The gallery section is working on all the types of devices.
 
-![devises reponsive](/asset/images/gallery2.jpeg)
+![devises reponsive](/asset/media/gallery2.jpeg)
 
 * ALL THE PICTURES AND VIDEOS ARE TAKEN BY ME, I TRIED TO RESIZE AND CONVERT THEM, IN ORDER TO GIVE A PLEASANT EXPERIENCE TO THE USER I COULD NOT RESIZE THEM MORE.
 # Contatc Us
 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users to keep track of the currently opened page.
 
-![devises reponsive](/asset/images/contatcus.jpeg)
+![devises reponsive](/asset/media/contatcus.jpeg)
 
 * There is a newsletter section that is working and is responsive towards all the devices.
 * The font are working fine with the background and it is easy to read.
 
-![devises reponsive](/asset/images/newsll.jpeg)
+![devises reponsive](/asset/media/newsll.jpeg)
 
 
 * I added a section with a map so all the users can open it and have it saved in their maps.
 
 * I also  created a card that explain our service Tour and Taisting.
 
-![devises reponsive](/asset/images/info.jpeg)
+![devises reponsive](/asset/media/info.jpeg)
 
 # Testing 
 
@@ -107,13 +107,13 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * Document checking completed. No errors or warnings to show.
 * I tested all my html pages several times, always worked.
-![devises reponsive](/asset/images/index.jpeg)
+![devises reponsive](/asset/media/index.jpeg)
 
-![devises reponsive](/asset/images/home.jpeg)
+![devises reponsive](/asset/media/home.jpeg)
 
-![devises reponsive](/asset/images/gallery.jpeg)
+![devises reponsive](/asset/media/gallery.jpeg)
 
-![devises reponsive](/asset/images/contact.jpeg)
+![devises reponsive](/asset/media/contact.jpeg)
 
 
 
@@ -126,16 +126,18 @@ The header shows the name of the museum, using the color dark olive green for MU
    + I had some issus to make it work, at the end I managed to do it.
 
      * home.html
-     ![devises reponsive](/asset/images/home.lighthouse.jpeg)
+     ![devises reponsive](/asset/media/home.lighthouse.jpeg)
      * gallery.html
-     ![devises reponsive](/asset/images/gallery.lighthouse.jpeg)
+     ![devises reponsive](/asset/media/gallery.lighthouse.jpeg)
      * contact.html
-     ![devises reponsive](/asset/images/contact.lighthouse.jpeg)
+     ![devises reponsive](/asset/media/contact.lighthouse.jpeg)
 
 # Unfixed Bugs
 
  * No unfixed bugs
+ # Content
 
+The icons in the footer were taken from Font Awesome.
 
  # Deployment 
   * The website was deployed to GitHub pages. The steps to deploy are as follows:
