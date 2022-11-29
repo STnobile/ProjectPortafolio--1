@@ -124,3 +124,10 @@ The header shows the name of the museum, using the color dark olive green for MU
      ![devises reponsive](/asset/images/gallery.lighthouse.png)
      * contact.html
      ![devises reponsive](/asset/images/contact.lighthouse.png)
+
+# Unfixed Bugs
+
+ * No unfixed bugs
+
+ # Credit
+ * The time section I created I took ispiration from the CI Love Running Project.
