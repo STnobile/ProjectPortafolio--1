@@ -113,17 +113,18 @@ nav ul li a:hover  {
     padding: 100px 0;
 }
 
-.box-video img{
-    background-color: rgb(0, 0, 0);
+.box-image{
     height: 500px;
     width: 400px;
     border-radius: 35px;
     margin-bottom: 40px;
 }
 
-.bkg-history video {
+.bkg-history img {
     height: 500px;
     width: 400px;
+    border-radius: 35px;
+    margin-bottom: 40px;
 }
 
 .cont-st {
@@ -182,12 +183,12 @@ nav ul li a:hover  {
         padding: 100px 0;
     }
     
-    .box-video{
-        height: 290px;
-        width: 280px;
+    .box-image {
+        height: 250px;
+        width: 240px;
     }
 
-    .bkg-history video {
+    .bkg-history img {
         height: 270px;
         width: 250px;
         margin: 0.5rem;
@@ -197,7 +198,6 @@ nav ul li a:hover  {
         width: 90%; 
     }
 }
-
 
 
 /* here start the about us section */
