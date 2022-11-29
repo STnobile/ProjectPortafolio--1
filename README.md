@@ -7,7 +7,7 @@ The Museo Vini Nobile explain our hour meeting, direction how to reach the place
 The website  is targeted towards all the touris that visit our city who want to learn about the winemaking before the electricity came .
 
 
-![devises reponsive](/asset/images/diff.device.png)
+![devises reponsive](/asset/images/diff.device.jpeg)
 
 # Features
 ## Navigation
@@ -17,7 +17,7 @@ The website  is targeted towards all the touris that visit our city who want to 
 * The navigation is in a font that works well with the contrasct of the background.
 * The navigation is simple and with a elegant style.
 
-![devises reponsive](/asset/images/navbar.png)
+![devises reponsive](/asset/images/navbar.jpeg)
 # Header
 
 The header shows the name of the museum, using the color dark olive green for MUSEO VINI and a span og color goldenrod for NOBILE. 
@@ -26,7 +26,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * the section provides the idea of who we are and the target of the video is to keep the user on the page and then move forward to the rest of the page.
 
-![devises reponsive](/asset/images/header.png)
+![devises reponsive](/asset/images/header.jpeg)
 
 ## Our Service 
 
@@ -34,21 +34,21 @@ The header shows the name of the museum, using the color dark olive green for MU
 * Our Serviser is divided in three cards they have a font clean and they are well balanced with the contrast of the background.
 * The cards Collection, Explore and Cirlce are designed to shows our care about the visitor and have a friendly environment and provide the best experience.
 
-![devises reponsive](/asset/images/ourservice.png)
+![devises reponsive](/asset/images/ourservice.jpeg)
 
 # Time Line 
 ## Second part of Our Service
 
 ### Time Line
-- I liked so much the love runnim project that I decide to take some idea from it.
-- Of course I changed the picture and the font, font work well and everything is responsive.
+
+- It has the picture as background of one of our wineyard and it has all the info regarding our time plan.
 
 - The time line is working on all the devices. 
 - It provides important information like time, day, the length of the tour and tasting.
 
 ##### TOUR AND TASTING(WE WILL DISCOVER LATER)
 
-![devises reponsive](/asset/images/timeline.png)
+![devises reponsive](/asset/images/timeline.jpeg)
 
 # Footer
 * The footer has the links for Facebook, Instagram and Twitter.
@@ -57,22 +57,22 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The link are external so the users not lose the track of the main site and working perfectly.
 
-![devises reponsive](/asset/images/footer.png)
+![devises reponsive](/asset/images/footer.jpeg)
 
 # Gallery Section 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users.
 
-![devises reponsive](/asset/images/gallerynavbar.png)
+![devises reponsive](/asset/images/gallerynavbar.jpeg)
 
 * The galley is made as "show room" also show few images regarding our collection, court and some wineyards.
 
-![devises reponsive](/asset/images/gallery1.png)
+![devises reponsive](/asset/images/gallery1.jpeg)
 
 * The images are divided in three column, I made them a bit dynamic adding some video. 
 
 * The gallery section is working all over the devices and it is simple.
 
-![devises reponsive](/asset/images/gallery2.png)
+![devises reponsive](/asset/images/gallery2.jpeg)
 
 # ALL THE PICTURE AND VIDEO ARE TAKEN BY ME, I TRIED TO RESIZE AND CONVERT THEM, IN ORDER TO GIVE A PLEASANT EXPERIENCE TO THE USER I COULD NOT RESIZE THEM MORE.
 
@@ -82,23 +82,23 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users.
 
-![devises reponsive](/asset/images/contatcus.png)
+![devises reponsive](/asset/images/contatcus.jpeg)
 
 * There is a newsletter section that is working and is responsive towards all the devices.
 * The font are working fine with the background and it is easy to read.
 
-![devises reponsive](/asset/images/newsll.png)
+![devises reponsive](/asset/images/newsll.jpeg)
 
 
 * I added a section with a map so all the users can connet to it and have it saved in their maps.
 
 * Also I created a card that explain our service Tour and Taisting.
 
-![devises reponsive](/asset/images/info.png)
+![devises reponsive](/asset/images/info.jpeg)
 
 # Testing 
 
-* I had a positive response from different browsers : Chrome, Safari and FireFox.
+* I am positive that my project is responsive in a different browsers : Chrome, Safari and FireFox.
 * I am positive that this project is responsive and looks good and is working in all the standard screen size, I tested using devtools device toolbar.
 * I confirmed that the navigation, header, about us, sing up and contatc are readable and easy to understand.
 * The newsletter section is working and the email is required.
@@ -109,6 +109,15 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * Document checking completed. No errors or warnings to show.
 * I tested all my html pages several times, always tested working.
+![devises reponsive](/asset/images/index.jpeg)
+
+![devises reponsive](/asset/images/home.jpeg)
+
+![devises reponsive](/asset/images/gallery.jpeg)
+
+![devises reponsive](/asset/images/contact.jpeg)
+
+
 
 2. CSS 
 
@@ -119,11 +128,11 @@ The header shows the name of the museum, using the color dark olive green for MU
    + I had some issus to make it working, luckily I managed to let it work.
 
      * home.html
-     ![devises reponsive](/asset/images/home.lighthouse.png)
+     ![devises reponsive](/asset/images/home.lighthouse.jpeg)
      * gallery.html
-     ![devises reponsive](/asset/images/gallery.lighthouse.png)
+     ![devises reponsive](/asset/images/gallery.lighthouse.jpeg)
      * contact.html
-     ![devises reponsive](/asset/images/contact.lighthouse.png)
+     ![devises reponsive](/asset/images/contact.lighthouse.jpeg)
 
 # Unfixed Bugs
 
