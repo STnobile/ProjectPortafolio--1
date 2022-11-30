@@ -193,6 +193,8 @@ Press Enter to create your local clone.
 
  # Credit
  * I took ispiration from the CI Love Running Project for the Time section I created.
+ * I watched plenty of video on youtube for get some inspiration like video of Kevin Powel.
+  that helped me to create my own design.
 
 
  # Future features
