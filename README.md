@@ -72,7 +72,8 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 ![devises reponsive](/asset/media/gallery2.jpeg)
 
-* ALL THE PICTURES AND VIDEOS ARE TAKEN BY ME, I TRIED TO RESIZE AND CONVERT THEM, IN ORDER TO GIVE A PLEASANT EXPERIENCE TO THE USER I COULD NOT RESIZE THEM MORE.
+
+Note: All the pictures and video are taken by me, I tried to resize and covert them, in order to give a pleasant experience to the user I could not resize them more.
 # Contatc Us
 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users to keep track of the currently opened page.
