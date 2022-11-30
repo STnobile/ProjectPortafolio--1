@@ -8,8 +8,6 @@ The website  is targeted towards all the tourists that visit our city who want t
 
 
 ![devises reponsive](/asset/media/diff.device.jpeg)
-
-# Features
 ## Navigation
 
 * The features are on the top of the screen, the logo is located at the left of the screen and the navigation links are on the right.
@@ -99,6 +97,13 @@ The header shows the name of the museum, using the color dark olive green for MU
 * This project is responsive and looks good and is working in all the standard screen sizes. I tested it using devtools device toolbar.
 * I confirmed that the Navigation, Header, About Us, Sing Up and Contact are readable and easy to understand.
 * The newsletter section is working and the email is required.
+* The site is working fine with all the resolutions such as: 
+ 1920×1080 (9.94%)
+ 1366×768 (6.22%)
+ 360×640 (5.88%)
+ 414×896 (4.21%)
+ 1536×864 (3.94%)
+ 375×667 (3.74%)
 
 
 # Validator Testing
