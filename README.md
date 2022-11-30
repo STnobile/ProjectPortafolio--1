@@ -24,7 +24,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The section provides the idea of who we are and the target of the video is to keep the user on the page and then move forward to the rest of it.
 
-![devises reponsive](/asset/media/header.jpeg)
+![devises reponsive](/asset/media/ourhistory.jpeg)
 
 ## Our Service 
 
@@ -131,7 +131,7 @@ The header shows the name of the museum, using the color dark olive green for MU
    + I had some issus to make it work, at the end I managed to do it.
 
      * home.html
-     ![devises reponsive](/asset/media/home.lighthouse.jpeg)
+     ![devises reponsive](/asset/media/home.lighhouse.jpeg)
      * gallery.html
      ![devises reponsive](/asset/media/gallery.lighthouse.jpeg)
      * contact.html
