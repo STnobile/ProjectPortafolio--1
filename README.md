@@ -126,7 +126,7 @@ Note: All the pictures and video are taken by me, I tried to resize and covert t
 2. CSS 
 
 *  The response from the validation of css.
-![devises reponsive](/asset/images/cssvalidation.png)
+![devises reponsive](/asset/media/cssvalidation.jpeg)
 
 * Accessibility
    + I had some issus to make it work, at the end I managed to do it.
