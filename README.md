@@ -24,13 +24,13 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 * The section provides the idea of who we are and the target of the video is to keep the user on the page and then move forward to the rest of it.
 
-![devises reponsive](/asset/media/ourhistory.jpeg)
+![devises responsive](/asset/media/ourhistory.jpeg)
 
 ## Our Service 
 
 * The first part is a guide to the concept we would like to show to our visitors.
 * Our Services is divided in three cards with a clean font which are well balanced with the contrast of the background.
-* The cards Collection, Explore and Cirlce are designed to show our care about the visitor and provide the best experience.
+* The cards Collection, Explore and Circle are designed to show our care about the visitor and provide the best experience.
 
 ![devises reponsive](/asset/media/ourservice.jpeg)
 
@@ -39,7 +39,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 ### Time Line
 
-- The background picture shows one of our wineyards and it has all the info regarding our time plan.
+- The background picture shows one of our vineyards and it has all the info regarding our time plan.
 
 - The time line is working on all the devices. 
 - It provides important information like time, day, the length of the tour and tasting.
@@ -74,7 +74,7 @@ The header shows the name of the museum, using the color dark olive green for MU
 
 
 Note: All the pictures and video are taken by me, I tried to resize and covert them, in order to give a pleasant experience to the user I could not resize them more.
-# Contatc Us
+# Contact Us
 
 * The navigation bar has an active class color goldenrod that makes easy the experience for the users to keep track of the currently opened page.
 
